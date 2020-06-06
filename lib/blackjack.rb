@@ -35,8 +35,9 @@ def end_game(card_total)
 end
 
 def initial_round
-  
-sum = rand(1..11) + rand(1..11)
+  sum = 0 
+  deal_card.push sum
+
   display_card_total(sum)
 
 end
