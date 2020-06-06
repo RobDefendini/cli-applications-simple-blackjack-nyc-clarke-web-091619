@@ -1,4 +1,4 @@
-
+require 'pry'
 
 def welcome
 
@@ -95,3 +95,4 @@ def runner
   end_game(card_total)
 
 end
+binding.pry
