@@ -36,9 +36,8 @@ end
 
 def initial_round
 sum = 0 
-sum.push(deal_card)
-sum.push(deal_card)
-sum
+
+
 end
 
 def hit?
