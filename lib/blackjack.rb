@@ -34,7 +34,7 @@ end
 
 def get_user_input
   
-  gets 
+  gets.strip.chomp 
 
 end
 
