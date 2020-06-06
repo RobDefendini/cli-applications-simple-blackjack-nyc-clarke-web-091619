@@ -23,11 +23,14 @@ def prompt_user
 end
 
 def get_user_input
+  
   gets 
 end
 
-def end_game
-  p "Sorry, you hit #{card_total}. Thanks for playing!"
+def end_game(card_total)
+  
+  puts "Sorry, you hit #{card_total}. Thanks for playing!"
+
 end
 
 def initial_round
