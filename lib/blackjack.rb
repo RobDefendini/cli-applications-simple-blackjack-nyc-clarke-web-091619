@@ -12,8 +12,7 @@ end
 
 def display_card_total(card_total)
   
-  p deal_card 
-  p deal_card
+  deal_card(card_total) 
   
 end
 
