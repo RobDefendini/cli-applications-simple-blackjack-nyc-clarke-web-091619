@@ -1,7 +1,6 @@
 
 
 def welcome
-  card_total = 0 
 
   puts "Welcome to the Blackjack Table"
 
