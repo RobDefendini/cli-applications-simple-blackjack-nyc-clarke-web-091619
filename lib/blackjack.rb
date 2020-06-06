@@ -45,7 +45,7 @@ def hit?(num)
   prompt_user
   get_user_input
   if get_user_input == "s"
-    end_game
+    end_game(num)
   end
     
 end
