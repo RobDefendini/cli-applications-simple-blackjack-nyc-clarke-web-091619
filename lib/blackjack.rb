@@ -59,7 +59,8 @@ def hit?(num)
   
   prompt_user
   
-  while hit?(num) < 21 do get_user_input 
+  while |num| < 21 do 
+    get_user_input 
   
   if get_user_input == "s"
     end_game(num)
