@@ -44,10 +44,8 @@ end
 def hit?(num)
   prompt_user
   get_user_input
-  if get_user_input? |"s"| 
-    return end_game
-    if get_user_input? |"h"|
-    new_total = deal_card + num 
+  if get_user_input? |"s"|
+    end_game
     
 end
 
