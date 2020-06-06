@@ -37,6 +37,7 @@ end
 def initial_round
   sum = 0 
   deal_card.push sum
+  deal_card.push sum
 
   display_card_total(sum)
 
