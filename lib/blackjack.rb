@@ -1,6 +1,7 @@
 
 
 def welcome
+  card_total = 0 
 
   puts "Welcome to the Blackjack Table"
 
@@ -86,7 +87,6 @@ end
 
 def runner
   welcome 
-  card_total = 0 
   card_total = initial_round
   while card_total < 21
     card_total = hit?(card_total)
