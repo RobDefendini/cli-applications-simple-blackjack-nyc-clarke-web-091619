@@ -58,6 +58,7 @@ end
 def hit?(num)
   
   prompt_user
+  
 
 end
 
