@@ -84,7 +84,7 @@ end
 
 def runner
   
-  puts welcome
+  p welcome
   
 end
     
