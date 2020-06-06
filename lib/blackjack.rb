@@ -84,7 +84,9 @@ end
 
 def runner
   
-   welcome
+  welcome
+  total = initial_round
+  
   
 end
     
