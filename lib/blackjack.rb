@@ -51,7 +51,7 @@ def hit?(num)
       deal_card
     end
   end
-  get_user_input
+  #get_user_input
     display_card_total
 end
 
